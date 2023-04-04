@@ -16,7 +16,7 @@ function App() {
 	const sendForm = (data: any) => {};
 	return (
 		<div className="[background-image:url('/bg-intro-mobile.png')]  md:[background-image:url('/bg-intro-desktop.png')] md:h-screen w-screen flex flex-col md:grid md:grid-cols-2 md:content-center md:items-center bg-red gap-20 bg-contain p-4">
-			<header className="text-white flex flex-col items-center text-center gap-8 pt-20 px-2 md:w-3/4 place-self-center md:pt-0">
+			<header className="text-white flex flex-col items-center text-center gap-8 pt-20 px-2 md:w-3/4 justify-self-end md:pt-0">
 				<h1 className="text-3xl font-bold px-4 md:text-6xl md:px-0 text-left">
 					Learn to code by watching others{" "}
 				</h1>
@@ -26,7 +26,7 @@ function App() {
 					developers think is invaluable.
 				</p>
 			</header>
-			<main className="flex flex-col gap-6">
+			<main className="flex flex-col gap-6  max-w-screen-sm">
 				<article className="bg-blue-default rounded-md py-6 text-center px-20 text-yellow-50 bottom-shadow w-full">
 					<p>
 						<strong>Try it free 7 days</strong> then $20/mo.
